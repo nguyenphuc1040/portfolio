@@ -9,7 +9,7 @@ const projectsData = [
         "description": "Global PvP NFT MOBA game combining competitive gameplay and blockchain tech. Features battle royale, MOBA modes, and NFT marketplace integration.",
         "highlights": [
             "Built custom AntiCheat system with Source Code Obfuscation & Google Integrity APIs, significantly reducing cheat incidents",
-            "Integrated Thetan SDK across the game ecosystem, enabling cross-game features for 20M+ users"
+            "Integrated Thetan SDK (account management, NFT minting & collection) across the game ecosystem, enabling cross-game features for 20M+ users"
         ],
         "tags": [
             "Unity3D",
@@ -187,8 +187,9 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #00c6ff, #0072ff)",
         "description": "Takes the classic sliding block puzzle game to the next level by blending brain-teasing puzzles, color matching challenges, and strategic city-building fun.",
         "highlights": [
-            "Designed and implemented core gameplay mechanics for sliding block puzzle with color matching logic",
-            "Built polished game feature UI/UX ensuring smooth and intuitive player experience"
+            "Developed core gameplay mechanics for sliding block puzzle with color matching logic",
+            "Built polished game feature UI/UX ensuring smooth and intuitive player experience",
+            "Developed DDA (Dynamic Difficulty Adjustment) library for the entire puzzle game lineup in the ecosystem"
         ],
         "tags": [
             "Unity3D",
