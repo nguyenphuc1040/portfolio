@@ -180,4 +180,92 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
         console.error('Error loading projects:', error);
     }
+
+    // ==========================================
+    // OPTION 1: Particle Background (tsParticles)
+    // ==========================================
+    if (typeof tsParticles !== 'undefined') {
+        tsParticles.load('tsparticles', {
+            fullScreen: { enable: false },
+            particles: {
+                number: { value: 60, density: { enable: true, area: 900 } },
+                color: { value: ['#6c63ff', '#00d4ff', '#ff6b9d'] },
+                shape: { type: 'circle' },
+                opacity: {
+                    value: 0.4,
+                    random: { enable: true, minimumValue: 0.1 },
+                    animation: { enable: true, speed: 0.8, minimumValue: 0.1, sync: false }
+                },
+                size: {
+                    value: 2.5,
+                    random: { enable: true, minimumValue: 0.5 },
+                },
+                links: {
+                    enable: true,
+                    distance: 130,
+                    color: '#6c63ff',
+                    opacity: 0.15,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 0.8,
+                    direction: 'none',
+                    random: true,
+                    straight: false,
+                    outModes: { default: 'out' }
+                }
+            },
+            interactivity: {
+                events: {
+                    onHover: { enable: true, mode: 'grab' },
+                    resize: true
+                },
+                modes: {
+                    grab: { distance: 160, links: { opacity: 0.4 } }
+                }
+            },
+            detectRetina: true
+        });
+    }
+
+    // ==========================================
+    // OPTION 3: 3D Card Tilt (Vanilla-Tilt.js)
+    // ==========================================
+    if (typeof VanillaTilt !== 'undefined') {
+        const cards = document.querySelectorAll('.project-card');
+        VanillaTilt.init(cards, {
+            max: 8,
+            speed: 400,
+            glare: true,
+            'max-glare': 0.15,
+            perspective: 1000,
+            scale: 1.02
+        });
+
+        // Also apply to glass-cards in about/experience sections
+        const glassCards = document.querySelectorAll('.about-grid .glass-card, .timeline-content');
+        VanillaTilt.init(glassCards, {
+            max: 5,
+            speed: 300,
+            glare: true,
+            'max-glare': 0.1,
+            perspective: 1200
+        });
+    }
+
+    // ==========================================
+    // OPTION 5: Parallax Scrolling
+    // ==========================================
+    const parallaxElements = document.querySelectorAll('[data-parallax-speed]');
+    
+    function handleParallax() {
+        const scrollY = window.scrollY;
+        parallaxElements.forEach(el => {
+            const speed = parseFloat(el.getAttribute('data-parallax-speed'));
+            el.style.transform = `translateY(${scrollY * speed}px)`;
+        });
+    }
+
+    window.addEventListener('scroll', handleParallax, { passive: true });
 });
