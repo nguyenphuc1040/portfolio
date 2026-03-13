@@ -998,6 +998,7 @@ footer {
     }
 
     .nav-links {
+        display: flex;
         position: fixed;
         top: 0;
         right: -100%;
@@ -1019,6 +1020,7 @@ footer {
 
     .nav-links a {
         font-size: 1.2rem;
+        margin-left: 0;
     }
 
     .hero {
