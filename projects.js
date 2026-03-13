@@ -8,8 +8,8 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #1a2980, #26d0ce)",
         "description": "Global PvP NFT MOBA game combining competitive gameplay and blockchain tech. Features battle royale, MOBA modes, and NFT marketplace integration.",
         "highlights": [
-            "AntiCheat, Source Code Obfuscation, Google Integrity APIs",
-            "Thetan SDK Integration"
+            "Built custom AntiCheat system with Source Code Obfuscation & Google Integrity APIs, significantly reducing cheat incidents",
+            "Integrated Thetan SDK across the game ecosystem, enabling cross-game features for 20M+ users"
         ],
         "tags": [
             "Unity3D",
@@ -31,8 +31,8 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #eb3349, #f45c43)",
         "description": "PvP archery fighting game with unique character skills. Won Google Play's Best of 2025 - Best Game Made in Vietnam.",
         "highlights": [
-            "Built Campaign game mode, character skills system",
-            "Backend integrated friendly battle & chat features"
+            "Developed the Campaign mode with character skill system",
+            "Implemented real-time friendly battle matchmaking and in-game chat system"
         ],
         "tags": [
             "Unity3D",
@@ -54,7 +54,7 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #4b6cb7, #182848)",
         "description": "Simulation game of the victory of Dien Bien Phu in the air by North Vietnamese air defense forces. Fly MIG-21, use SAM-2 missiles.",
         "highlights": [
-            "Full responsibility: Design, art, development, release"
+            "Solo-developed end-to-end: game design, pixel art, programming, and store publishing — achieved 500K+ downloads"
         ],
         "tags": [
             "Unity2D",
@@ -77,8 +77,8 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #8E2DE2, #4A00E0)",
         "description": "Application to draw, customize costumes, and publish to Thetan game system. Includes social media features and marketplace.",
         "highlights": [
-            "Built drawing features, publishing, saving tools",
-            "Backend integration: login, IAP, subscriptions, leaderboards"
+            "Developed core drawing engine with publishing workflow and cloud-saving tools for user-generated content",
+            "Integrated full backend stack: authentication, IAP, subscription billing, and global leaderboards"
         ],
         "tags": [
             "Unity3D",
@@ -100,8 +100,8 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #f12711, #f5af19)",
         "description": "Party royale PvP game featuring fun-filled races and knockout challenges in a vibrant 3D world.",
         "highlights": [
-            "Game mode built with Photon Quantum",
-            "Integrated Thetan Creator's artwork"
+            "Built multiplayer party game modes using Photon Quantum for real-time PvP synchronization",
+            "Connected Thetan Creator's UGC pipeline, allowing player-designed skins to appear in-game"
         ],
         "tags": [
             "Unity3D",
@@ -115,6 +115,29 @@ const projectsData = [
         "imageUrl": "assets/images/thetan-rivals-banner.webp"
     },
     {
+        "id": "battle-dien-bien-phu",
+        "title": "Battle of Dien Bien Phu",
+        "company": "Pirex Games",
+        "metric": "Historic PvE",
+        "metricIcon": "",
+        "gradient": "linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)",
+        "description": "Historical simulation game (PvE) recreating the 56-day campaign of Dien Bien Phu (1954). Use weapons and control soldiers to conquer enemy bases.",
+        "highlights": [
+            "Solo-developed end-to-end: game design, art, programming, and store publishing across iOS & Android"
+        ],
+        "tags": [
+            "Unity2D",
+            "C#",
+            "IAP",
+            "IAA",
+            "Localization"
+        ],
+        "videoUrl": "https://www.youtube.com/watch?v=lT-QHHoWimc",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.pirexgames.battleofdienbienphu",
+        "iosUrl": "https://apps.apple.com/us/app/id6747936659",
+        "imageUrl": "assets/images/battle-dien-bien-phu-banner.webp"
+    },
+    {
         "id": "otter-loot",
         "title": "Otter Loot",
         "company": "Wolffun",
@@ -123,7 +146,7 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #00b09b, #96c93d)",
         "description": "P2E mini-game on TON blockchain natively playable on Telegram. Spin, loot, and steal to build an otter empire.",
         "highlights": [
-            "Quest, mini-events, and referral features"
+            "Built quest system, mini-events, and viral referral features driving user acquisition on Telegram"
         ],
         "tags": [
             "Unity2D",
@@ -143,8 +166,9 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #ff9966, #ff5e62)",
         "description": "A PvP archery game where two players duel in fast-paced 1v1 matches. Take turns shooting arrows affected by angle and distance.",
         "highlights": [
-            "Built UI Lobby, Shop Feature",
-            "Support import models, ingame feature"
+            "Developed UI Lobby and Shop system with full purchasing flow on Meta Horizon Worlds platform",
+            "Built model import pipeline and in-game interaction features using TypeScript",
+            "Integrated character animation system"
         ],
         "tags": [
             "Typescript",
@@ -163,8 +187,8 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #00c6ff, #0072ff)",
         "description": "Takes the classic sliding block puzzle game to the next level by blending brain-teasing puzzles, color matching challenges, and strategic city-building fun.",
         "highlights": [
-            "GamePlay mechanics",
-            "Game Feature UI/UX"
+            "Designed and implemented core gameplay mechanics for sliding block puzzle with color matching logic",
+            "Built polished game feature UI/UX ensuring smooth and intuitive player experience"
         ],
         "tags": [
             "Unity3D",
@@ -176,29 +200,7 @@ const projectsData = [
         "iosUrl": "https://apps.apple.com/us/app/city-block-jam/id6742809816",
         "imageUrl": "assets/images/city-block-jam-banner.webp"
     },
-    {
-        "id": "battle-dien-bien-phu",
-        "title": "Battle of Dien Bien Phu",
-        "company": "Pirex Games",
-        "metric": "Historic PvE",
-        "metricIcon": "",
-        "gradient": "linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)",
-        "description": "Historical simulation game (PvE) recreating the 56-day campaign of Dien Bien Phu (1954). Use weapons and control soldiers to conquer enemy bases.",
-        "highlights": [
-            "Full responsibility: Design, art, development, release"
-        ],
-        "tags": [
-            "Unity2D",
-            "C#",
-            "IAP",
-            "IAA",
-            "Localization"
-        ],
-        "videoUrl": "https://www.youtube.com/watch?v=lT-QHHoWimc",
-        "androidUrl": "https://play.google.com/store/apps/details?id=com.pirexgames.battleofdienbienphu",
-        "iosUrl": "https://apps.apple.com/us/app/id6747936659",
-        "imageUrl": "assets/images/battle-dien-bien-phu-banner.webp"
-    },
+
     {
         "id": "shot-down",
         "title": "Shot Down",
@@ -208,7 +210,7 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #141E30, #243B55)",
         "description": "Spaceships feature different attack skills along with effects (stun, root, buffs). Play online with friends or offline against AI.",
         "highlights": [
-            "Built multiplayer room and syncing"
+            "Built real-time multiplayer room system with state synchronization using Photon PUN"
         ],
         "tags": [
             "Unity2D",
@@ -227,7 +229,7 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #11998e, #38ef7d)",
         "description": "Internal project to manage all character resources across the Thetan World ecosystem. Utilizes Addressable remote content.",
         "highlights": [
-            "Built and maintained a centralized repository to store, build, and load game models"
+            "Built and maintained a centralized resource repository serving all Thetan World titles, streamlining asset management across 5+ game projects"
         ],
         "tags": [
             "Unity3D",

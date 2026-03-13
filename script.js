@@ -11,6 +11,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Dynamic Footer Year
+    const footerYear = document.getElementById('footer-year');
+    if (footerYear) footerYear.textContent = new Date().getFullYear();
+
+    // Mobile Hamburger Menu Toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.querySelector('i').classList.toggle('fa-bars');
+            menuToggle.querySelector('i').classList.toggle('fa-times');
+        });
+
+        // Close menu when a nav link is clicked
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.querySelector('i').classList.add('fa-bars');
+                menuToggle.querySelector('i').classList.remove('fa-times');
+            });
+        });
+    }
+
     // Intersection Observer for Scroll Animations
     const observerOptions = {
         root: null,
@@ -141,8 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${storeLinksHTML}
                     </div>
                     <div class="project-content">
-                        <h3>${project.title} <span>(${project.company})</span></h3>
+                        <h3>${project.title}</h3>
+                        <span class="company-badge"><i class="fas fa-building"></i> ${project.company}</span>
                         <p class="project-desc">${project.description}</p>
+                        <h4 class="contributions-title">My Contributions</h4>
                         <ul class="project-highlights">
                             ${highlightsHTML}
                         </ul>
