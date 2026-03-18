@@ -106,9 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 let overlayHTML = '';
                 if (project.metric) {
                     const iconHTML = project.metricIcon ? `<i class="${project.metricIcon}"></i> ` : '';
+                    const downloadsHTML = project.downloads
+                        ? `<span class="downloads-badge"><i class="fas fa-download"></i> ${project.downloads}</span>`
+                        : '';
                     overlayHTML = `
                         <div class="project-overlay">
                             <span class="metric">${iconHTML}${project.metric}</span>
+                            ${downloadsHTML}
                         </div>
                     `;
                 }
@@ -121,6 +125,12 @@ document.addEventListener('DOMContentLoaded', () => {
                             <i class="fas fa-play"></i>
                         </div>
                     `;
+                }
+
+                // Award badge (bottom-left)
+                let awardHTML = '';
+                if (project.award) {
+                    awardHTML = `<div class="award-badge"><i class="fas fa-award"></i> ${project.award}</div>`;
                 }
 
                 // Map highlights
@@ -162,6 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${mainIconHTML}
                         ${overlayHTML}
                         ${playBtnHTML}
+                        ${awardHTML}
                         ${storeLinksHTML}
                     </div>
                     <div class="project-content">

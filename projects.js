@@ -3,8 +3,9 @@ const projectsData = [
         "id": "thetan-arena",
         "title": "Thetan Arena",
         "company": "Wolffun",
-        "metric": "20M+ Users",
+        "metric": "MOBA / Action",
         "metricIcon": "",
+        "downloads": "10M+",
         "gradient": "linear-gradient(to right, #1a2980, #26d0ce)",
         "description": "Global PvP NFT MOBA game combining competitive gameplay and blockchain tech. Features battle royale, MOBA modes, and NFT marketplace integration.",
         "highlights": [
@@ -26,8 +27,10 @@ const projectsData = [
         "id": "thetan-immortal",
         "title": "Thetan Immortal",
         "company": "Wolffun",
-        "metric": "Google Play Best of 2025",
-        "metricIcon": "fas fa-award",
+        "metric": "Action / PvP",
+        "metricIcon": "",
+        "award": "Google Play Best of 2025",
+        "downloads": "100K+",
         "gradient": "linear-gradient(to right, #eb3349, #f45c43)",
         "description": "PvP archery fighting game with unique character skills. Won Google Play's Best of 2025 - Best Game Made in Vietnam.",
         "highlights": [
@@ -49,12 +52,13 @@ const projectsData = [
         "id": "dien-bien-phu-air",
         "title": "Dien Bien Phu in the air",
         "company": "Pirex Games",
-        "metric": "500,000+ Downloads",
+        "metric": "Simulation / Action",
         "metricIcon": "",
+        "downloads": "500K+",
         "gradient": "linear-gradient(to right, #4b6cb7, #182848)",
         "description": "Simulation game of the victory of Dien Bien Phu in the air by North Vietnamese air defense forces. Fly MIG-21, use SAM-2 missiles.",
         "highlights": [
-            "Solo-developed end-to-end: game design, pixel art, programming, and store publishing — achieved 500K+ downloads"
+            "Solo-developed end-to-end: game design, pixel art, programming, and store publishing"
         ],
         "tags": [
             "Unity2D",
@@ -72,8 +76,9 @@ const projectsData = [
         "id": "thetan-creator",
         "title": "Thetan Creator",
         "company": "Wolffun",
-        "metric": "UGC App",
+        "metric": "Art & Design",
         "metricIcon": "",
+        "downloads": "50K+",
         "gradient": "linear-gradient(to right, #8E2DE2, #4A00E0)",
         "description": "Application to draw, customize costumes, and publish to Thetan game system. Includes social media features and marketplace.",
         "highlights": [
@@ -95,8 +100,9 @@ const projectsData = [
         "id": "thetan-rivals",
         "title": "Thetan Rivals",
         "company": "Wolffun",
-        "metric": "",
+        "metric": "Party Royale",
         "metricIcon": "",
+        "downloads": "500K+",
         "gradient": "linear-gradient(to right, #f12711, #f5af19)",
         "description": "Party royale PvP game featuring fun-filled races and knockout challenges in a vibrant 3D world.",
         "highlights": [
@@ -118,8 +124,9 @@ const projectsData = [
         "id": "battle-dien-bien-phu",
         "title": "Battle of Dien Bien Phu",
         "company": "Pirex Games",
-        "metric": "Historic PvE",
+        "metric": "Strategy",
         "metricIcon": "",
+        "downloads": "100K+",
         "gradient": "linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)",
         "description": "Historical simulation game (PvE) recreating the 56-day campaign of Dien Bien Phu (1954). Use weapons and control soldiers to conquer enemy bases.",
         "highlights": [
@@ -143,6 +150,7 @@ const projectsData = [
         "company": "Wolffun",
         "metric": "Telegram TON",
         "metricIcon": "",
+        "downloads": "",
         "gradient": "linear-gradient(to right, #00b09b, #96c93d)",
         "description": "P2E mini-game on TON blockchain natively playable on Telegram. Spin, loot, and steal to build an otter empire.",
         "highlights": [
@@ -163,6 +171,7 @@ const projectsData = [
         "company": "Wolffun",
         "metric": "Meta Horizon Worlds",
         "metricIcon": "",
+        "downloads": "",
         "gradient": "linear-gradient(to right, #ff9966, #ff5e62)",
         "description": "A PvP archery game where two players duel in fast-paced 1v1 matches. Take turns shooting arrows affected by angle and distance.",
         "highlights": [
@@ -182,8 +191,9 @@ const projectsData = [
         "id": "city-block-jam",
         "title": "City Block Jam",
         "company": "Wolffun",
-        "metric": "Puzzle Game",
+        "metric": "Puzzle",
         "metricIcon": "",
+        "downloads": "50K+",
         "gradient": "linear-gradient(to right, #00c6ff, #0072ff)",
         "description": "Takes the classic sliding block puzzle game to the next level by blending brain-teasing puzzles, color matching challenges, and strategic city-building fun.",
         "highlights": [
@@ -201,6 +211,27 @@ const projectsData = [
         "iosUrl": "https://apps.apple.com/us/app/city-block-jam/id6742809816",
         "imageUrl": "assets/images/city-block-jam-banner.webp"
     },
+    {
+        "id": "brainbow",
+        "title": "Brainbow: Smart Art Puzzle",
+        "company": "Pirex Games",
+        "metric": "Puzzle - Nonogram",
+        "metricIcon": "",
+        "downloads": "",
+        "gradient": "linear-gradient(to right, #f953c6, #b91d73)",
+        "description": "Paint by logic! A colorful nonogram-style puzzle game where players discover hidden pixel art by solving color number clues.",
+        "highlights": [
+            "Solo-developed end-to-end: game design, art creation, programming, and Android publishing"
+        ],
+        "tags": [
+            "Unity2D",
+            "C#",
+            "IAA",
+        ],
+        "videoUrl": "",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.pirexgames.brainbow",
+        "imageUrl": "assets/images/brainbow-banner.webp"
+    },
 
     {
         "id": "shot-down",
@@ -208,6 +239,7 @@ const projectsData = [
         "company": "Pirex Games",
         "metric": "Spaceship Battle",
         "metricIcon": "",
+        "downloads": "",
         "gradient": "linear-gradient(to right, #141E30, #243B55)",
         "description": "Spaceships feature different attack skills along with effects (stun, root, buffs). Play online with friends or offline against AI.",
         "highlights": [
@@ -227,10 +259,11 @@ const projectsData = [
         "company": "Wolffun",
         "metric": "Internal Tool",
         "metricIcon": "",
+        "downloads": "",
         "gradient": "linear-gradient(to right, #11998e, #38ef7d)",
         "description": "Internal project to manage all character resources across the Thetan World ecosystem. Utilizes Addressable remote content.",
         "highlights": [
-            "Built and maintained a centralized resource repository serving all Thetan World titles, streamlining asset management across 5+ game projects"
+            "Developed a unified resource repository serving the entire Thetan World ecosystem, streamlining asset management across all current and future titles."
         ],
         "tags": [
             "Unity3D",

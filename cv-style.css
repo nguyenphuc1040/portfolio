@@ -2,7 +2,7 @@
 /* Designed for both screen viewing and Ctrl+P → Save as PDF */
 
 :root {
-    --cv-primary: #2563eb;
+    --cv-primary: #141414;
     --cv-dark: #1e293b;
     --cv-gray: #64748b;
     --cv-light: #f1f5f9;
@@ -26,6 +26,10 @@ body {
     print-color-adjust: exact;
 }
 
+.page-break {
+    break-before: page;
+}
+
 .cv-container {
     max-width: 210mm;
     margin: 20px auto;
@@ -41,6 +45,23 @@ body {
     margin-bottom: 16px;
 }
 
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.cv-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
 .cv-header h1 {
     font-size: 22pt;
     font-weight: 700;
@@ -53,7 +74,6 @@ body {
     font-size: 12pt;
     color: var(--cv-primary);
     font-weight: 500;
-    margin-bottom: 10px;
 }
 
 .header-contact {
@@ -198,6 +218,12 @@ body {
     border-color: #fcd34d;
 }
 
+.badge.downloads {
+    background: #f0fdf4;
+    color: #059669;
+    border-color: #bbf7d0;
+}
+
 .company-tag {
     font-size: 8.5pt;
     color: var(--cv-gray);
@@ -244,11 +270,12 @@ body {
 
 .tech-tags span {
     font-size: 7.5pt;
-    background: var(--cv-light);
-    color: var(--cv-gray);
-    padding: 1px 7px;
-    border-radius: 3px;
-    font-weight: 500;
+    background: #eff6ff;
+    color: var(--cv-primary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid #bfdbfe;
 }
 
 .project-links {
