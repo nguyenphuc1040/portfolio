@@ -145,7 +145,8 @@ const cvData = {
             company: "Pirex Games (Indie)",
             desc: "Historical simulation game (PvE) recreating the 56-day campaign of Dien Bien Phu (1954).",
             responsibilities: [
-                "Solo-developed end-to-end: game design, art, programming, and store publishing across iOS & Android"
+                "Solo-developed end-to-end: game design, art, programming, and store publishing across iOS & Android",
+                "Achieved #1 on App Store within the first week of release through strategic planning and execution"
             ],
             tech: ["Unity2D", "C#", "IAP", "IAA", "Localization"],
             links: {

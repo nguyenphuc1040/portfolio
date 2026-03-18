@@ -130,7 +130,8 @@ const projectsData = [
         "gradient": "linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)",
         "description": "Historical simulation game (PvE) recreating the 56-day campaign of Dien Bien Phu (1954). Use weapons and control soldiers to conquer enemy bases.",
         "highlights": [
-            "Solo-developed end-to-end: game design, art, programming, and store publishing across iOS & Android"
+            "Solo-developed end-to-end: game design, art, programming, and store publishing across iOS & Android",
+            "Achieved #1 on App Store within the first week of release"
         ],
         "tags": [
             "Unity2D",
