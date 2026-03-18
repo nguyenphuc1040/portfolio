@@ -1,11 +1,12 @@
 const cvData = {
-    name: "Nguyễn Hữu Khắc Phúc",
+    name: "Nguyễn Hữu Khắc Phục",
     role: "Game Developer",
     avatar: "assets/AnhTheP.png",
     contact: {
+        birthday: "14/08/2001",
         email: "nguyenphuc.it14@gmail.com",
         phone: "+84 336 018 244",
-        location: "Ho Chi Minh City, Vietnam",
+        location: "Ho Chi Minh City",
         github: "github.com/nguyenphuc1040",
         linkedin: "linkedin.com/in/nguyenphuc1040",
         portfolio: "https://nguyenphuc1040.github.io/portfolio/"

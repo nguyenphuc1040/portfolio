@@ -38,14 +38,15 @@
                 </div>
                 <div class="header-contact">
                     <div class="contact-row">
+                        <span><i class="fas fa-birthday-cake"></i> ${c.birthday}</span>
                         <a href="mailto:${c.email}"><i class="fas fa-envelope"></i> ${c.email}</a>
                         <a href="tel:${c.phone.replace(/\s/g, '')}"><i class="fas fa-phone"></i> ${c.phone}</a>
-                        <span><i class="fas fa-map-marker-alt"></i> ${c.location}</span>
+                        <a href="${c.portfolio}" target="_blank"><i class="fas fa-globe"></i> Portfolio</a>
                     </div>
                     <div class="contact-row">
+                        <span><i class="fas fa-map-marker-alt"></i> ${c.location}</span>
                         <a href="https://${c.github}" target="_blank"><i class="fab fa-github"></i> ${c.github}</a>
                         <a href="https://${c.linkedin}" target="_blank"><i class="fab fa-linkedin"></i> ${c.linkedin}</a>
-                        <a href="${c.portfolio}" target="_blank"><i class="fas fa-globe"></i> Portfolio</a>
                     </div>
                 </div>
             </header>`;
