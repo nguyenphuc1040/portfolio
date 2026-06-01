@@ -31,8 +31,9 @@ const cvData = {
         {
             name: "Xóm nhỏ tuổi thơ",
             badge: "Simulation",
+            award: "Top 5 GameHub 2026",
             company: "Corochti",
-            desc: "A nostalgic childhood neighborhood simulation game.",
+            desc: "A nostalgic simulation game that brings Vietnamese childhood memories to life through relaxing countryside building and healing experiences.",
             responsibilities: [
                 "Responsible for creating features, maintaining the project, and fixing bugs"
             ],
@@ -56,6 +57,9 @@ const cvData = {
             }
         },
         {
+            pageBreak: true // ← chèn page-break trước project này khi print
+        },
+        {
             name: "Thetan Immortal",
             badge: "Action / PvP",
             downloads: "100K+ Downloads",
@@ -71,7 +75,8 @@ const cvData = {
                 googlePlay: "https://play.google.com/store/apps/details?id=com.wolffun.thetanimmortal",
                 appStore: "https://apps.apple.com/us/app/thetan-immortal/id6449538044"
             }
-        },        
+        },
+
         {
             name: "Thetan Creator",
             badge: "Art & Design",
@@ -89,9 +94,7 @@ const cvData = {
                 appStore: "https://apps.apple.com/vn/app/thetan-creator-create-play/id6445906128"
             }
         },
-{
-            pageBreak: true // ← chèn page-break trước project này khi print
-        },
+
         {
             name: "Thetan Rivals",
             badge: "Party Royale",
@@ -142,7 +145,7 @@ const cvData = {
         },
 
         {
-            name: "Dien Bien Phu in the air",
+            name: "Hà Nội 12 Ngày Đêm",
             badge: "Simulation / Action",
             downloads: "500K+ Downloads",
             company: "Pirex Games (Indie)",
@@ -155,6 +158,9 @@ const cvData = {
                 googlePlay: "https://play.google.com/store/apps/details?id=com.DefaultCompany.NguyenPhuc",
                 appStore: "https://apps.apple.com/us/app/id6746174052"
             }
+        },
+        {
+            pageBreak: true // ← chèn page-break trước project này khi print
         },
         {
             name: "Battle of Dien Bien Phu",

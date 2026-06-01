@@ -5,9 +5,10 @@ const projectsData = [
         "company": "Corochti",
         "metric": "Simulation",
         "metricIcon": "",
+        "award": "Top 5 GameHub 2026",
         "downloads": "",
         "gradient": "linear-gradient(to right, #56ab2f, #a8e063)",
-        "description": "A nostalgic childhood neighborhood simulation game. Currently in active development.",
+        "description": "A nostalgic simulation game that brings Vietnamese childhood memories to life. Players experience relaxing gameplay centered around countryside building, farming, and healing activities. The project proudly achieved Top 5 Best Game Projects at GameHub 2026 and is currently in active development.",
         "highlights": [
             "Responsible for creating features, maintaining the project, and fixing bugs"
         ],
@@ -69,7 +70,7 @@ const projectsData = [
     },
     {
         "id": "dien-bien-phu-air",
-        "title": "Dien Bien Phu in the air",
+        "title": "Hà Nội 12 ngày đêm",
         "company": "Pirex Games",
         "metric": "Simulation / Action",
         "metricIcon": "",
