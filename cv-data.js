@@ -16,12 +16,29 @@ const cvData = {
     experience: [
         {
             title: "Unity Developer",
+            company: "Corochti",
+            date: "May 2026 – Jun 2026",
+            desc: "Developed and optimized Unity mobile games (iOS, Android). Programmed gameplay, AI, UI/UX, and animations. Optimized game performance, memory, and resolved crashes. Integrated third-party SDKs (Ads Mediation, IAP, Firebase, etc.). Collaborated with design and art teams. Led and supported the developer team."
+        },
+        {
+            title: "Unity Developer",
             company: "Wolffun Game Pte. Ltd",
             date: "Aug 2022 – Dec 2025",
             desc: "Developed mobile applications and games on Unity Engine, optimized performance, built gameplay, game UI, creative model editing features, and managed game resources effectively."
         }
     ],
     projects: [
+        {
+            name: "Xóm nhỏ tuổi thơ",
+            badge: "Simulation",
+            company: "Corochti",
+            desc: "A nostalgic childhood neighborhood simulation game.",
+            responsibilities: [
+                "Responsible for creating features, maintaining the project, and fixing bugs"
+            ],
+            tech: ["Unity3D", "C#"],
+            links: {}
+        },
         {
             name: "Thetan Arena",
             badge: "MOBA / Action",

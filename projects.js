@@ -1,5 +1,24 @@
 const projectsData = [
     {
+        "id": "xom-nho-tuoi-tho",
+        "title": "Xóm nhỏ tuổi thơ",
+        "company": "Corochti",
+        "metric": "Simulation",
+        "metricIcon": "",
+        "downloads": "",
+        "gradient": "linear-gradient(to right, #56ab2f, #a8e063)",
+        "description": "A nostalgic childhood neighborhood simulation game. Currently in active development.",
+        "highlights": [
+            "Responsible for creating features, maintaining the project, and fixing bugs"
+        ],
+        "tags": [
+            "Unity3D",
+            "C#"
+        ],
+        "videoUrl": "",
+        "imageUrl": "assets/images/xom-nho-tuoi-tho-banner.png"
+    },
+    {
         "id": "thetan-arena",
         "title": "Thetan Arena",
         "company": "Wolffun",
